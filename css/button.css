@@ -1,0 +1,27 @@
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 15px;
+    background-color: #EA1E63;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+}
+.btn2 {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 15px;
+    float: right;
+    background-color: #EA1E63;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+}

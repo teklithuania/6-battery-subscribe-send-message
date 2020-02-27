@@ -1,0 +1,46 @@
+form {
+    display: inline-block;
+    width: 100%;
+}
+.upper::placeholder { 
+    color: #fff; 
+    opacity: 1;
+}
+
+    form > .upper {
+        display: inline-block;
+        width: 80%;
+        margin-top: 50px;
+        line-height: 25px;
+        border: none;
+        background: transparent;
+        border-bottom: 2px solid #FFF;
+        color: #fff;
+    }
+
+.lover::placeholder{
+    color: #ddd;
+}
+.right > form > .lower {
+    display: inline-block;
+    width: 45%;
+    float: left;
+    line-height: 25px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #ddd;
+    color: transparent;
+    margin: 40px 0;
+    font-size: 16px;
+    color: #777;
+}
+.right > form > .lower.long {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 40px;
+    line-height: 80px;
+}
+.right > form > .lower.right{
+    float: right;
+}
